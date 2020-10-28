@@ -1,0 +1,25 @@
+/* .features .feature-panel .feature-icon::before {
+    background-image: none;
+}
+.testimonials {
+    background: url(../images/background/xd-map-bg.png) center center no-repeat;
+    background-size: cover;
+}
+.testimonials .testimonial-panel:before {
+    background: none;
+}
+.btn--primary {
+    background-color: white;
+    color: #ff0000;
+    border-radius: 0;
+}
+.btn--primary:hover{
+    color: #ff0000;
+} */
+/* .pricing .pricing-panel {
+    box-shadow: 0 30px 50px 0 rgba(232,80,91,.1);
+    -webkit-box-shadow: 0 30px 50px 0 rgba(232,80,91,.1);
+} */
+/* .clients .client img {
+    max-width: 75%;
+} */

@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="author" content="essential-infotech" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Multi-purpose landing page responsive UI" />
+
+  <!-- Landing Page Icon -->
+  <link href="assets/images/xd/Group 3031.png" rel="icon" />
+
+  <!-- Roboto FOnt Link -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+    <!-- CSS Files -->
+  <link href="assets/css/vendor.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <title>Hancho - Multi Purpose HTML Landing Page</title>
+</head>
+
+<!-- body contents -->
+<body class="body-scroll">
+
+  <!-- this is the navigation bar -->
+  <div class="wrapper clearfix" id="wrapper">
+    <header class="header header-transparent header-sticky">
+      <nav class="navbar navbar-sticky navbar-expand-lg" id="primary-menu">
+        <div class="container">
+
+          <!-- this is where you will place your brand logo -->
+          <a class="logo navbar-brand" href=" ">
+
+            <!-- change src for logo-dark to place your own brand logo-->
+            <img class="logo logo-light" src="assets/images/logo/logo-main.png" alt="Hancho Logo" />
+
+            <!-- change src for logo-dark to place your own brand logo for the sticky navbar -->
+            <img class="logo logo-dark" src="assets/images/logo/logo-main.png" alt="Hancho Logo" />
+
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+
+              <!-- this is the primary navigation menu -->
+              <li class="nav-item active">
+                <a class="nav-link" data-scroll="scrollTo" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-scroll="scrollTo" href="#feature">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-scroll="scrollTo" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-scroll="scrollTo" href="#testimonials">Testimonials</a>
+              </li>
+            </ul>
+            <div class="module-container">
+              <div class="module module-cta">
+                <a class="btn btn--white btn--arrows" href="javascript:void(0)" data-toggle="modal"
+                  data-target="#contactUsModal">
+                  <span>contact us</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <!-- end of navigation bar -->
+
+    <!-- this is the pop-up contact form -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModal"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="popup-contact-form">
+              <div class="heading heading-5">
+                <div class="heading-title">start your free trial</div>
+                <div class="heading-desc">
+                  Supporting call-to-actiongoes here
+                </div>
+              </div>
+              <div class="contact-body">
+
+                <!-- change the value for action to your form submit file in your server -->
+                <form class="contactForm mb-0" method="post" action="">
+                  <div class="row">
+                    <div class="col-12">
+                      <input class="form-control" type="text" name="contact-name" placeholder="your name"
+                        required="required" />
+                    </div>
+                    <div class="col-12">
+                      <input class="form-control" type="text" name="contact-email" placeholder="your email"
+                        required="required" />
+                    </div>
+                    <div class="col-12">
+                      <input class="form-control" type="text" name="contact-phone" placeholder="your phone"
+                        required="required" />
+                    </div>
+                    <div class="col-12">
+                      <button class="btn--block btn btn--primary btn--arrows mt-20 mb-20">
+                        <span>Get Started Now<i class="icon-right-arrow"></i></span>
+                      </button>
+                    </div>
+                    <div class="col-12">
+                      <p class="notice">
+                        Start by trying our service for 30 days free triar no
+                        credit card required.
+                      </p>
+                    </div>
+                    <div class="col-12">
+                      <div class="contact-result"></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of pop-up contact form -->
+
+    <!-- this is the hero area -->
+    <section class="hero hero-2 bg-gradient" id="hero">
+      <div class="bg-section">
+        <img src="assets/images/background/top-bg.svg" alt="background" />
+      </div>
+      <div class="container">
+        <div class="hero-cotainer text-center text-lg-left">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="hero-content">
+                <div class="hero-headline">
+                  <!-- enter your Headline over here -->
+                  The World News Standard
+                </div>
+                <div class="hero-bio">
+                  <!-- enter your company sub-heading over here -->
+                  lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book. It has survived not only five centuries,
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 offset-lg-1">
+              <div class="popup-contact-form">
+                <div class="heading heading-5">
+                  <div class="heading-title">start your free trial</div>
+                  <div class="heading-desc">
+                    <!-- enter your supporting form text over here -->
+                    Supporting call-to-action goes here
+                  </div>
+                </div>
+                <div class="contact-body">
+
+                  <!-- change the value for action to your form submit file in your server (all form-handling methods are the same)-->
+                  <form class="contactForm mb-0" method="post" action="">
+                    <div class="row">
+                      <div class="col-12">
+                        <input class="form-control" type="text" name="contact-name" placeholder="your name"
+                          required="required" />
+                      </div>
+                      <div class="col-12">
+                        <input class="form-control" type="text" name="contact-email" placeholder="your email"
+                          required="required" />
+                      </div>
+                      <div class="col-12">
+                        <input class="form-control" type="text" name="contact-phone" placeholder="your phone"
+                          required="required" />
+                      </div>
+                      <div class="col-12">
+                        <button class="btn--block btn btn--primary btn--arrows mt-20 mb-20">
+                          <span class="form-btn-start" style="background: #ff0000;color: white;">Get Start Now<i class="icon-right-arrow"></i></span>
+                        </button>
+                      </div>
+                      <div class="col-12">
+                        <p class="notice">
+                          Start by trying our service for 30 days free triar
+                          no credit card required.
+                        </p>
+                      </div>
+                      <div class="col-12">
+                        <div class="contact-result"></div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of hero area -->
+
+    <!-- this is the features section -->
+    <section class="features" id="feature">
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+            <div class="heading heading-1 text-center">
+              <!-- change the heading title with your own heading -->
+              <h2 class="heading-title">Great Way To Show Your Services</h2>
+
+              <!-- change the heading description with your own description -->
+              <p class="heading-desc">
+                This should be used to tell a story and let your users know a
+                little more about your product or service. How can you benefit
+                them?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="feature-panel">
+              <div class="feature-icon">
+                <i class="flaticon-archive-3"></i>
+              </div>
+              <div class="feature-content">
+                <!-- enter the three main features of your company -->
+                <!-- the steps for changing the three are the same -->
+
+                <!-- feature title -->
+                <h3>great results</h3>
+
+                <!-- feature description -->
+                <p>
+                  This should be used to tell a story and let your users know
+                  more about your service. How can you benefit them?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="feature-panel active">
+              <div class="feature-icon"><i class="flaticon-albums"></i></div>
+              <div class="feature-content">
+                <!-- feature title -->
+                <h3>great results</h3>
+
+                <!-- feature description -->
+                <p>
+                  This should be used to tell a story and let your users know
+                  more about your service. How can you benefit them?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="feature-panel">
+              <div class="feature-icon">
+                <i class="flaticon-fingerprint"></i>
+              </div>
+              <div class="feature-content">
+                <!-- feature title -->
+                <h3>great results</h3>
+                
+                <!-- feature description -->
+                <p>
+                  This should be used to tell a story and let your users know
+                  more about your service. How can you benefit them?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of features section -->
+
+    <!-- this is the pricing section -->
+    <section class="pricing  " id="services">
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+            <div class="heading heading-1 text-center">
+
+              <!-- enter the special offer by your company -->
+              <h2 class="heading-title">
+                Start Your Project with Special Offer
+
+                <!-- the amount is highlighted, change it according to your will -->
+                <span>50% Discount</span>
+              </h2>
+
+              <!-- explain the offer details here -->
+              <p class="heading-desc">
+                This should be used to tell a story and let your users know a
+                little more about your product or service. How can you benefit
+                them?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-container">
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-4 price-table">
+              <div class="pricing-panel">
+                <div class="pricing-img">
+
+                  <!-- the image for this file is located inside the illustration folder in images -->
+                  <!-- assets > images > illustration > YOUR_IMAGE -->
+                  <!-- the optimum dimension for each image is 370x300 -->
+                  <img src="assets/images/illustration/one.jpg" alt="alt" />
+                </div>
+
+                <div class="pricing-body">
+                  
+                  <!-- add your pricimg heading text -->
+                  <h5 class="pricing-heading">great results</h5>
+
+                  <!-- add your pricimg description text -->
+                  <p class="pricing-desc">
+                    This should be used to tell a story and let your users
+                    know more about your service. How can you benefit them?
+                  </p>
+                  <a class="pricing-link" href="javascript:void(0)"><i class="icon-right-arrow"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4 price-table">
+              <div class="pricing-panel">
+                <div class="pricing-img">
+
+                  <!-- the image for this file is located inside the illustration folder in images -->
+                  <!-- assets > images > illustration > YOUR_IMAGE -->
+                  <!-- the optimum dimension for each image is 370x300 -->
+                  <img src="assets/images/illustration/two.jpg" alt="alt" />
+                </div>
+
+                <div class="pricing-body">
+
+                  <!-- add your pricimg heading text -->
+                  <h5 class="pricing-heading">page builder</h5>
+
+                  <!-- add your pricimg description text -->
+                  <p class="pricing-desc">
+                    This should be used to tell a story and let your users
+                    know more about your service. How can you benefit them?
+                  </p>
+                  <a class="pricing-link" href="javascript:void(0)"><i class="icon-right-arrow"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4 price-table">
+              <div class="pricing-panel">
+                <div class="pricing-img">
+
+                  <!-- the image for this file is located inside the illustration folder in images -->
+                  <!-- assets > images > illustration > YOUR_IMAGE -->
+                  <!-- the optimum dimension for each image is 370x300 -->
+                  <img src="assets/images/illustration/three.jpg" alt="alt" />
+                </div>
+
+                <div class="pricing-body">
+
+                  <!-- add your pricimg heading text -->
+                  <h5 class="pricing-heading">new design</h5>
+
+                  <!-- add your pricimg description text -->
+                  <p class="pricing-desc">
+                    This should be used to tell a story and let your users
+                    know more about your service. How can you benefit them?
+                  </p>
+                  <a class="pricing-link" href="javascript:void(0)"><i class="icon-right-arrow"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of pricing section -->
+
+    <!-- this is the services section -->
+    <section class="services" id="video">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-7">
+            <div class="video">
+              <div class="bg-section">
+                <img src="assets/images/background/video-bg.svg" alt="background" />
+              </div>
+
+              <!-- insert your video link in here -->
+              <a class="btn-video popup-video" href="https://vimeo.com/467911696"><i class="fas fa-play"></i></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="service-card pt-30">
+              <div class="heading heading-2">
+
+                <!-- insert your feature heading here -->
+                <h2 class="heading-title">Last Article</h2>
+
+                <!-- insert your feature sub heading here -->
+                <p class="heading-desc">Camping in Western Australia</p>
+              </div>
+              <ul class="list-unstyled service-list">
+                <li>
+                  <!-- insert your first feature here -->
+                  <span class="icon-tick-inside-circle"></span> This is the
+                  first feature that stands out
+                </li>
+                <li>
+                  <!-- insert your second feature here -->
+                  <span class="icon-tick-inside-circle"></span> This is the
+                  second feature that stands out
+                </li>
+                <li>
+                  <!-- insert your third feature here -->
+                  <span class="icon-tick-inside-circle"></span> This is the
+                  fourth feature that stands out
+                </li>
+                <li>
+                  <!-- insert your fourth feature here -->
+                  <span class="icon-tick-inside-circle"></span> This is the
+                  fifth feature that stands out
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- this is the testimonials section -->
+    <section class="testimonials bg-gray" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <div class="owl-carousel carousel-dots carousel-navs" data-slide="1" data-slide-res="1"
+              data-autoplay="false" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800">
+              <div class="testimonial-panel">
+                <div class="testimonial-body">
+                  <div class="testimonial-img">
+
+                    <!-- add image of your referer in the directed folder -->
+                    <!-- assets > images > testimonials > __REFERER_IMAGE__ -->
+                    <img src="assets/images/testimonials/avatar-main.png" alt="avatar author" />
+                  </div>
+
+                  <!-- recommendation message here -->
+                  <p>
+                    " This should be used to tell a story and include any
+                    testimonials you might have about your product or service
+                    for your clients "
+                  </p>
+                  <div class="testimonial-author">
+                    <p>CEO @Company.ltd</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-panel">
+                <div class="testimonial-body">
+                  <div class="testimonial-img">
+
+                    <!-- add image of your referer in the directed folder -->
+                    <!-- assets > images > testimonials > __REFERER_IMAGE__ -->
+                    <img src="assets/images/testimonials/avatar-main.png" alt="avatar author" />
+                  </div>
+
+                  <!-- recommendation message here -->
+                  <p>
+                    " This should be used to tell a story and include any
+                    testimonials you might have about your product or service
+                    for your clients "
+                  </p>
+                  <div class="testimonial-author">
+                    <p>CEO @Company.ltd</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-panel">
+                <div class="testimonial-body">
+                  <div class="testimonial-img">
+
+                    <!-- add image of your referer in the directed folder -->
+                    <!-- assets > images > testimonials > __REFERER_IMAGE__ -->
+                    <img src="assets/images/testimonials/avatar-main.png" alt="avatar author" />
+                  </div>
+
+                  <!-- recommendation message here -->
+                  <p>
+                    " This should be used to tell a story and include any
+                    testimonials you might have about your product or service
+                    for your clients "
+                  </p>
+                  <div class="testimonial-author">
+
+                    <!-- referrer company name -->
+                    <p>CEO @Company.ltd</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- this is the clients section -->
+    <section class="clients" id="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <div class="owl-carousel" data-slide="5" data-slide-res="3" data-autoplay="true" data-nav="false"
+              data-dots="false" data-space="30" data-loop="true" data-speed="800">
+
+              <!-- place your client company image in the following folder for easier navigation -->
+              <!-- assets > images > clients > __YOUR__CLIENT__IMAGE__ -->
+              <div class="client">
+                <img src="assets/images/clients/client-1.png" alt="client-pic" />
+              </div>
+
+              <div class="client">
+                <img src="assets/images/clients/client-2.png" alt="client-pic" />
+              </div>
+
+              <div class="client">
+                <img src="assets/images/clients/client-3.png" alt="client-pic" />
+              </div>
+
+              <div class="client">
+                <img src="assets/images/clients/client-4.png" alt="client-pic" />
+              </div>
+
+              <div class="client">
+                <img src="assets/images/clients/client-5.png" alt="client-pic" />
+              </div>
+
+              <div class="client">
+                <img src="assets/images/clients/client-3.png" alt="client-pic" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of clients section -->
+
+    <!-- this is the contact-us-now section -->
+    <section class="cta text-center" id="cta">
+      <div class="bg-section">
+
+        <!-- place your background image in the following folder -->
+        <!-- assets > images > background > __YOUR__BACKGROUND__IMAGE__ -->
+        <img src="assets/images/background/bot-bg.svg" alt="background" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 text-center">
+            <h3>What are you waiting for?</h3>
+
+            <!-- enter a message of motivation for the users of the website to contact you -->
+            <p>This should be used to tell a story and let your users know a little more
+              about your product or service. How can you benefit them?</p>
+            <a class="btn btn--primary btn--arrows mx-auto" href="javascript:void(0)" data-toggle="modal"
+              data-target="#contactUsModal">
+              <span>get started now</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of contact-us-now -->
+
+    <!-- this is the footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-widgets-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer-widget">
+
+                <!-- enter your logo here by replacing the image in the logo folder -->
+                <!-- assets > images > logo > __YOUR__BRAND__LOGO__ -->
+                <a class="logo navbar-brand" href=" "><img class="logo logo-light"
+                    src="assets/images/logo/logo-sec.png" alt="Hancho Logo" /></a>
+
+
+                <!-- this is the footer navigation bar -->
+                <ul class="list-unstyled navigation">
+                  <li class="nav-item">
+                    <a class="nav-link" data-scroll="scrollTo" href="#hero">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-scroll="scrollTo" href="#feature">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-scroll="scrollTo" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-scroll="scrollTo" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"href="javascript:void(0)" data-toggle="modal"
+                    data-target="#contactUsModal">contact us</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer-widget">
+                <div class="footer-contact">
+                  <ul class="list-unstyled">
+                    <li><a href="#"></a></li>
+                  </ul>
+                </div>
+
+                <!-- this is the ooter social menu -->
+                <div class="footer-social">
+                  <ul class="list-unstyled">
+                    <li>
+                      <!-- enter your instagram link here -->
+                      <a href="https://instagram.com/__YOUR__INSTAGRAM__PAGE__"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <!-- enter your twitter link here -->
+                      <a href="https://twitter.com/__YOUR__twitter__PAGE__"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <!-- enter your facebook link here -->
+                      <a href="https://facebook.com/__YOUR__facebook__PAGE__"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <!-- enter your dribbble link here -->
+                      <a href="https://dribbble.com/__YOUR__dribbble__PAGE__"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="divider-1"></div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12 text--center">
+
+            <!-- enter your copyright message here -->
+            <div class="footer-copyright">
+              <span>2020 &copy; All rights
+                reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+  </div>
+
+
+  <!-- necessary scripts -->
+  <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/vendor.js"></script>
+  <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
