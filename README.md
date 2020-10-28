@@ -1,2 +1,2 @@
 # Hancho-Frontend
-App Landing Page (Scratch to Frontend)
+Sample Landing Page (Scratch to Frontend)
